@@ -1,0 +1,652 @@
+body {
+    font: 12px/1.5 Microsoft YaHei, Heiti SC, tahoma, arial, Hiragino Sans GB, "\5B8B\4F53", sans-serif;
+    color: #666;
+}
+
+
+/* S 广告位 ---------------------------------------------------------------> */
+
+.advertising-box {
+    height: 80px;
+    background-color: #ce35e0;
+}
+
+.advertising-center {
+    position: relative;
+    width: 1190px;
+    height: 80px;
+    margin: 0 auto;
+    background: url(../img/advertising.png.webp) no-repeat;
+}
+
+.advertising-center .close-icon {
+    float: right;
+    width: 16px;
+    height: 16px;
+    font-size: 12px;
+    text-align: center;
+    background-color: #7a7878;
+    line-height: 16px;
+    color: #fff;
+    margin-top: 3px;
+}
+
+.advertising-center .adv-center-logo img {
+    width: 190px;
+}
+
+.advertising-center .adv-center-img {
+    position: absolute;
+    top: 6px;
+    left: 280px;
+}
+
+.advertising-center .center-img-item {
+    padding-right: 51px;
+}
+
+.advertising-center .center-img-item img {
+    width: 68px;
+    height: 68px;
+    border-radius: 20%;
+}
+
+
+/* E 广告位 ---------------------------------------------------------------> */
+
+
+/* S 用户导航 ---------------------------------------------------------------> */
+
+.user-nav-box {
+    background-color: #e3e4e5;
+    border: 1px solid #ddd;
+}
+
+.user-nav-box .user-nav-center {
+    width: 1190px;
+    height: 28px;
+    margin: 0 auto;
+}
+
+
+/* 用户导航定位区域 */
+
+.user-nav-box .user-nav-center a {
+    color: #999;
+}
+
+.user-nav-box .positioning-ul li {
+    float: left;
+    padding-left: 10px;
+    line-height: 28px;
+}
+
+.user-nav-box .positioning-icon img {
+    width: 19px;
+    height: 19px;
+}
+
+
+/* 用户导航个人模块区域 */
+
+.user-nav-box .personal-model .personal-model-item {
+    position: relative;
+    float: right;
+    line-height: 28px;
+    padding: 0 7px;
+}
+
+.user-nav-box .personal-model-item span {
+    color: #ff0000;
+}
+
+.user-nav-box .down-icon {
+    float: right;
+    margin: 12px 3px 0px;
+}
+
+.user-nav-box .hover-color:hover {
+    color: #ff0000;
+}
+
+
+/* 用户导航我的京东下拉框 */
+
+.user-nav-box .per-my-jd {
+    position: absolute;
+    top: 29px;
+    left: -1px;
+    display: none;
+    border-left: 1px solid #e4e7e3;
+    border-right: 2px solid #e4e7e3;
+    border-bottom: 2px solid #e4e7e3;
+    background-color: #fff;
+    width: 280px;
+    z-index: 100;
+}
+
+.user-nav-box .per-my-jd .per-my-jd-item {
+    float: left;
+    width: 140px;
+    height: 28px;
+    text-indent: 15px;
+}
+
+.user-nav-box .per-my-jd .per-my-jd-box-top {
+    height: 84px;
+    border-bottom: 1px solid #e4e7e3;
+    padding: 10px 0px;
+}
+
+.user-nav-box .per-my-jd .pre-my-jd-box-down {
+    height: 56px;
+    padding: 10px 0px;
+}
+
+.user-nav-box .my-jd-link:hover .per-my-jd {
+    display: block;
+}
+
+.user-nav-box .my-jd-link:hover {
+    background-color: #fff;
+}
+
+
+/* E 用户导航 ---------------------------------------------------------------> */
+
+
+/* S 头部 ---------------------------------------------------------------> */
+
+.header {
+    border-bottom: 1px solid #e4e7e3;
+}
+
+.h-center {
+    width: 1190px;
+    height: 140px;
+    margin: 0 auto;
+}
+
+
+/* logo */
+
+.h-center .logo img,
+.treasure img {
+    width: 190px;
+    height: 120px;
+    padding: 10px 0px;
+}
+
+.h-center .logo {
+    float: left;
+}
+
+.h-center .treasure {
+    float: right;
+}
+
+
+/* 搜索框 */
+
+.search {
+    position: relative;
+    top: 28px;
+    left: 60px;
+}
+
+.search input {
+    border: 2px solid #e1251b;
+    width: 488px;
+    height: 32px;
+    color: #ccc;
+    text-indent: 1rem;
+}
+
+.search .search-btn {
+    position: absolute;
+    width: 58px;
+    height: 36px;
+    border: 1px solid #e1251b;
+    background-color: #e1251b;
+}
+
+.search .search-btn a {
+    color: #fff;
+}
+
+
+/* 我的购物车*/
+
+.shopping-cart {
+    position: absolute;
+    left: 63%;
+    top: 137px;
+    width: 132px;
+    height: 36px;
+    line-height: 36px;
+    text-align: center;
+    border: 1px solid #eee;
+}
+
+.shopping-cart .shopping-icon {
+    width: 21px;
+    height: 21px;
+    background-image: url(../img/gouwuche.jpg);
+}
+
+.shopping-cart a {
+    color: #e1251b;
+}
+
+
+/* 搜索关键字列表 */
+
+.serlist {
+    margin: 35px 0px 0px 250px;
+}
+
+.serlist li {
+    float: left;
+    padding-right: 10px;
+}
+
+.serlist .serlist-item a {
+    color: #999;
+}
+
+.serlist .serlist-item .serlist-special {
+    color: #e1251b;
+}
+
+
+/* 导航项目 */
+
+.navitems {
+    /* width: 820px; */
+    float: left;
+    height: 60px;
+    line-height: 60px;
+}
+
+.navitems .navitems-list {
+    float: left;
+    margin: 0px 11px;
+    font-size: 15px;
+}
+
+.navitems .navitems-special-1 {
+    font-weight: 700;
+    color: #e1251b;
+}
+
+.navitems .navitems-special-2 {
+    color: #333;
+}
+
+
+/* E 头部 ---------------------------------------------------------------> */
+
+
+/* S 分类、banner 区域 ---------------------------------------------------------------> */
+
+.main {
+    background: #f4f4f4 url(../img/bgimg.png.webp) no-repeat 50% 15px;
+}
+
+.main .grid {
+    position: relative;
+    width: 1190px;
+    margin: 0 auto;
+    padding-top: 10px;
+}
+
+
+/* 分类 */
+
+.left-type {
+    float: left;
+    width: 190px;
+    height: 450px;
+    background-color: #fff;
+    padding: 10px 0;
+}
+
+.left-type .left-type-list {
+    padding-left: 18px;
+    height: 25px;
+    line-height: 25px;
+}
+
+.left-type .left-type-list:hover {
+    background-color: #e3e4e5;
+}
+
+.left-type .left-type-list a {
+    font-size: 14px;
+    color: #333;
+}
+
+.left-type .left-type-list a:hover {
+    color: #c81623;
+}
+
+
+/* 分类弹框 */
+
+.left-type-bounced {
+    position: absolute;
+    left: 190px;
+    width: 998px;
+    height: 470px;
+    border: 1px solid #e4e7e3;
+    background-color: #fff;
+    display: none;
+}
+
+.left-type-bounced .left-type-bounced-list-top {
+    padding: 15px 20px;
+}
+
+.left-type-bounced .left-type-bounced-list-top a:hover {
+    background-color: #c81623;
+}
+
+.left-type-bounced .left-type-bounced-list-top a {
+    background-color: #333;
+    color: #fff;
+    padding: 4px 15px;
+}
+
+.left-type-bounced .left-type-bounced-list .bounced-list-t1 {
+    padding: 15px 10px;
+    color: #666;
+}
+
+.left-type-bounced-list .bounced-list-t {
+    padding: 15px 10px;
+    margin-left: 20px;
+    font-weight: 700;
+    color: #333;
+}
+
+.left-type-bounced .left-type-bounced-list a:hover {
+    color: #c81623;
+}
+
+.left-type-bounced-list {
+    padding-bottom: 10px;
+}
+
+.left-type:hover+.left-type-bounced {
+    display: block;
+}
+
+
+/* banner */
+
+.banner {
+    float: left;
+}
+
+.center-img img {
+    padding-left: 10px;
+}
+
+.min-banner img {
+    width: 190px;
+    height: 150px;
+    margin-bottom: 10px;
+}
+
+
+/* banner 右边快捷操作 */
+
+.quick-entry {
+    float: right;
+    width: 190px;
+    height: 450px;
+    padding: 10px 0;
+    background-color: #fff;
+}
+
+
+/* 用户 */
+
+.quick-entry-user {
+    border-bottom: 1px solid #e4e7e3;
+}
+
+.userinfo {
+    padding: 5px 15px 5px;
+}
+
+.userinfo .userlogo {
+    float: left;
+}
+
+.userinfo .userlogo img {
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    border: 1px solid #ccc;
+}
+
+.user-operation a {
+    margin-left: 10px;
+    color: #666;
+}
+
+.user-operation a:hover {
+    color: #c81623;
+}
+
+.user-vip {
+    margin: 0px 12px 5px;
+}
+
+.user-vip a {
+    display: inline-block;
+    width: 70px;
+    height: 25px;
+    line-height: 25px;
+    text-align: center;
+    border-radius: 15px;
+    margin: 5px;
+}
+
+.user-vip .new-user {
+    background-color: #c81623;
+    color: #fff;
+}
+
+.user-vip .vip {
+    background-color: #363634;
+    color: #e5d790;
+}
+
+
+/* 京东快报 */
+
+.letters-title {
+    padding: 8px 0px 8px 10px;
+}
+
+.letters-title h5 {
+    display: inline-block;
+    font-weight: 700;
+    color: #333;
+}
+
+.letters-title a {
+    text-align: right;
+    color: #999;
+    margin-left: 60px;
+}
+
+.letters-title a:hover {
+    color: #c81623;
+}
+
+.letters-list {
+    padding-left: 10px;
+}
+
+.letters-list-item span {
+    background-color: rgba(225, 37, 27, .08);
+    color: #c81623;
+    display: inline-block;
+    width: 35px;
+    height: 16px;
+    line-height: 16px;
+    text-align: center;
+    margin-right: 5px;
+}
+
+.letters-list-item .letters-list-title {
+    color: #666;
+    width: 160px;
+    display: block;
+    overflow: hidden;
+    word-break: keep-all;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    padding-bottom: 8px;
+}
+
+.letters-list-item a:hover {
+    color: #c81623;
+}
+
+.letters-list {
+    border-bottom: 1px solid #e4e7e3;
+}
+
+
+/* 快捷入口 */
+
+.quick-entry-other-item {
+    float: left;
+    width: 63px;
+    height: 55px;
+    padding-top: 5px;
+    text-align: center;
+}
+
+.quick-entry-other-item img {
+    width: 28px;
+    height: 28px;
+    padding: 0px 16px;
+}
+
+
+/* E 分类、banner 区域 ---------------------------------------------------------------> */
+
+
+/* S JD秒杀 区域 ---------------------------------------------------------------> */
+
+
+/* JD秒杀 */
+
+.jd-seckill {
+    width: 1190px;
+    margin: 0 auto;
+}
+
+.seckill-left {
+    float: left;
+    width: 190px;
+    height: 260px;
+    background-image: url(../img/jdms.png);
+}
+
+.seckill-left-t {
+    font-size: 30px;
+    font-weight: 700;
+    margin-top: 31px;
+    color: #fff;
+    text-align: center;
+}
+
+.seckill-left-s {
+    font-size: 14px;
+    margin-top: 90px;
+    text-align: center;
+    color: #fff;
+}
+
+.seckill-left-s strong {
+    font-size: 18px;
+}
+
+.seckill-left-d {
+    margin-top: 10px;
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+}
+
+.seckill-left-d span {
+    background-color: #333;
+}
+
+.seckill-center {
+    margin-left: 190px;
+    background-color: #fff;
+}
+
+.seckill-center1 {
+    /* float: left; */
+    display: inline-block;
+    width: 200px;
+    height: 260px;
+    border-right: 1px solid #ccc;
+}
+
+.seckill-center1 img {
+    padding: 30px;
+    width: 140px;
+    height: 140px;
+}
+
+.seckill-center1 .sp-title {
+    padding: 13px 0px 3px;
+}
+
+.seckill-center1 .sp-title,
+.sb-monye {
+    color: #333;
+    text-align: center;
+}
+
+.sb-monye {
+    border: 1px solid #e1251b;
+    margin: 0px 20px;
+    background-color: #e1251b;
+}
+
+.sb-monye .monye1 {
+    font-size: 16px;
+    font-weight: 700;
+    color: #fff;
+}
+
+.sb-monye .monye2 {
+    text-decoration: line-through;
+    background-color: #fff;
+    float: right;
+    height: 28px;
+    line-height: 28px;
+    padding: 0 5px;
+}
+
+.seckill-right {
+    float: right;
+}
+
+.seckill-right img {
+    width: 190px;
+    height: 260px;
+}
+
+
+/* E JD秒杀 区域 区域 ---------------------------------------------------------------> */
